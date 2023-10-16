@@ -6,11 +6,11 @@ export const App = () => {
   return (
     <section>
       <h1>Phonebook</h1>
-      <UserForm />
+      {/* <UserForm /> */}
 
       <div>
         <h2>Contacts</h2>
-        <ContactFilter/>
+        {/* <ContactFilter/> */}
         <ContactList />
       </div>
     </section>
