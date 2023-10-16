@@ -1,5 +1,5 @@
 import { UserForm } from './Form/Form';
-// import { ContactFilter } from './ContactFilter/ContactFilter';
+import { ContactFilter } from './ContactFilter/ContactFilter';
 import { ContactList } from './ContactList/ContactList';
 
 export const App = () => {
@@ -10,7 +10,7 @@ export const App = () => {
 
       <div>
         <h2>Contacts</h2>
-        {/* <ContactFilter/> */}
+        <ContactFilter/>
         <ContactList />
       </div>
     </section>

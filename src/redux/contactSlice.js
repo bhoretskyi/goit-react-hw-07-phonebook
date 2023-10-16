@@ -2,13 +2,10 @@ import { createSlice } from '@reduxjs/toolkit';
 import { fetchContacts, addContact, deleteContact } from './contactOperations';
 
 const initialState = {
-  
-    items: [],
-    isLoading: false,
-    error: null,
-  }
-  
-
+  items: [],
+  isLoading: false,
+  error: null,
+};
 
 const handlePending = state => {
   return {
@@ -61,4 +58,4 @@ const contactsSlice = createSlice({
   },
 });
 
-export const contactsReducer = contactsSlice.reducer
+export const contactsReducer = contactsSlice.reducer;
